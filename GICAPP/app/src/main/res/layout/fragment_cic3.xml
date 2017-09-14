@@ -1,0 +1,134 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.october7sveryown.app.Fragment.CIC3Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myScollview">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/main.backdrop"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="1dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/cic31"
+                app:layout_collapseMode="parallax"
+                />
+
+        <TextView
+            android:text="Community Innovation &amp; Co-Creation Centre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitle"
+            android:layout_below="@id/main.backdrop"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/txtDetails"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/cic3_Details"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/divider"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:src="@drawable/divider"
+            android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="9dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/tvTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Contact us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMeetus"
+            android:layout_below="@id/txtDetails"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="15dp"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/txtMeetupDetails"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/cic3_contact_us"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/divider1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:src="@drawable/divider"
+            android:id="@+id/divider1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/txtMeetus"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="25dp"
+        app:fabSize="normal"
+        android:id="@+id/fab"
+        android:src="@drawable/internet"
+        app:layout_anchor="@id/main.appbar"
+        app:pressedTranslationZ="18dp"
+        app:rippleColor="#000"
+        android:clickable="true"
+        android:layout_gravity="bottom|right|end"
+        app:backgroundTint="@color/primary_dark"
+        />
+</FrameLayout>

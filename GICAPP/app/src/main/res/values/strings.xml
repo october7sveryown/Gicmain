@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">GIC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_fav">Wishlist</string>
+    <string name="nav_signout">Sign Out</string>
+    <string name="nav_about_gic">About GIC</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Wishlist</item>
+        <item>Sign Out</item>
+        <item>About GIC</item>
+    </string-array>
+
+    <string name="large_text">
+    GUJART TEHCNOLOGICAL UNIVERSITY
+    Community Innovation Centre Now
+    Recruiting for ROBOCON-2017 The Vision o
+    f honourable Vice Chanceller, Dr.Akshai Aggarwal
+    for GTU – ROBOCON Team is to build essential skills such
+    as Team work, Team Spirit, Management work, Pressure handling
+    skills, Decision making skills, Extensive gain of technical knowledge,
+    Circuit designing skill, Programming skill among GTU"</string>
+
+    <string name="gicinfo">Imagination is the base of innovation. So we at GIC nurture the soft skills and talent of the students to lead their imagination in a proper way. GIC has been designed to establish close bonding between industries, entrepreneur and students to make research and development at the University relevant to the needs of industries at national and international levels. It aims to involve the industries, along with the students and faculty members, in an innovation campaign, whereby GTU rejuvenates technology education and develops quality research at the University and helps create a culture of design, new and improved products and processes in our industry.
+
+\n\n <b>Our Mission : </b>GTU Innovation Council’s first objective is to nurture creativity and innovation within the University community; it has been designed to act as a catalyst of change for the whole of the society.
+
+\n\nThe Council targets to create a management system, which uses the existing structures and facilities by bringing them together for working for innovation. The council has decided to document every single success and to make the information available to all the stake-holders to develop self-confidence in the whole of the system. One key aim of this mission is to develop inter-relationship for national and international collaborations for innovation in the fields of Science, Engineering, Technology and Management. The Innovation Council has started strategic steps to establish a close and continuing inter-action between the industries and businesses and the students and faculties in all the undergraduate and postgraduate courses like Engineering, Management, pharmacy, MCA and Polytechnics and the faculty members in GTU.</string>
+
+    <string name="meetus"><b>Address:</b>	GTU Innovation Council,
+    Block 6 , L.D Engg Boys Hostel,
+    Opp. Old Regional Passport office,
+    Navrangpura, Ahmedabad, Gujarat 380009 \n\n  <b>Email:</b>	gic@gtu.edu.in \n\n
+    <b>Website: </b>	www.gtuinnovationcouncil.ac.in\n
+    www.gtu.ac.in\n\n
+    <b>Phone No:</b>	079-26316005 ,
+    079-2631 6019
+</string>
+    <string name="DevelopersDetail">Krunal Hingu\n Yash Thaker\n Abhijit Raval</string>
+
+    <string name="cic3_Details">CIC3 Provides a forum where a community (Students/Faculties/Researchers) would be able to come forward with a problem that they have identified and for which they have a solution in their mind.\n\n
+
+CIC3 is a Co-Creation Space, which should become a magnet to attract all the creative persons and all the successful entrepreneurs of the area.  The students and faculties will not only be able to get facilities to develop their idea in to prototype but also, they would be able to discuss it with other ‘fellows’ at the center and they may be able to find mentors there.\n\n
+
+Its a really innovative and research based idea to provide support with the necessary funding, resources and mentorship to build that idea into a reality.\n\n
+
+The Vision of honourable Vice Chancellor for CiC3 Lab is to foster innovation, research and entrepreneurship among the students of GTU. This is the perfect platform for all hackers/makers/developers/students to showcase their skills, innovative ideas, passion and connect with the visionaries, industry experts who can mentor them and help to transform their ideas/projects into realities product.\n\n
+
+GTU CiC3 is continuously engaged in research and development activities and CiC3 team conducts, mentors and co-ordinates various workshops/FDP/Seminar. GTU Sensor Lab is a part of CiC3 Lab. And also to prompt Research with the help of research partners (ISRO, IPR, etc) and Knowledge partners (TATA Motors, Atmel, National Instrument etc.) as well as we have highly advanced equipment like 3D printer, vinyl cutter,etc</string>
+
+    <string name="cic3_contact_us"><b>Address : </b>Gujarat Technological University, Block No.6, L.D.C.E Boys Hostel Campus, Nr. OLD Passport Office, Navrangpura, Ahmedabad. \n\n<b>Email : </b>cic3@gtu.edu.in \n\n</string>
+
+
+  <string name="S4_Details"><b>S4 Workshop on START-UP ANALYSIS to build the capacity of S4 fellows</b>\n\n
+The event was organized to make the students learn how to analyze the market before going
+for the startup on their idea and select the area based on the minimum competition zone. The
+participants were from different colleges around Ahmedabad. \n\n
+
+The host of the event was Mr. Yash Saxena founder of the OPEN FUEL. After an introduction,
+he initiated the event by dividing the enthusiastic group of students in groups of 3-4
+independently and voluntarily. After the groups were formed they were asked to select their
+sector of interest for the startups. The action began soon after the topics were decided. Each
+group was ordered to search for 10 startups based on their sector selected, on the website
+given as TECHCRUNCH.COM.\n\n
+
+Participants engaged themselves in the given task to find best 10 startups for their group which
+was a cakewalk due to the guidance from the mentor. Moving on each of the group cross
+checked their ideas on CRUNCHBASE.COM as informed by the mentor. Not all but few of their
+ideas were listed on the later website.\n\n
+Having done the same they gained the grip as to how to find the tags from their working sector
+and to select the best tag having minimum competitors in the market. Thus they were informed
+to work on such tags and develop startups from them so as to survive with their startups with
+minimal efforts.\n\n
+A wider demonstration was given by asking the participants to voluntarily present their path of
+search on projector screen and by showcasing a good presentation on their startups.
+Finally the session concluded with a good helping hand assurance from the GIC team and
+Mr.Yash Saxena and the students were requested to start similar workshops in their respective
+colleges as a part of the S4 so that students can learn abut the processes of starting
+technological enterprises.</string>
+
+    <string name="s4_contact_us"> <b>Email : </b>gtu_innovation_council@gtu.edu.in \n
+ gic@gtu.edu.in \n\n<b>Tel : </b> +91-79-2630 0699\n\n</string>
+
+    <string name="de_details">Design Thinking (Design Engineering)
+Associate should willing to learn Design Thinking.Associate should assist in Design Engineering Events at GIC. Associate will work like a bridge between GTU Design Team and Student
+Community.(Students who are interested in Design Engineering Subject can select this as their area of work in this program.)\n\n
+<b>What is design? </b>Design is a plan of a system, its implementation and utilization for attaining a
+goal. It is to change undesired situation into desired situation means to find solution for
+undesired/uncomfortable situation.\n
+Designs can be for\n
+(1) Technical systems (power plant)\n
+(2) Educational systems (Montessori Method)\n
+(3) Aesthetic systems (logo designs, advertisements)\n
+(4) Legal systems\n
+(5) Social, religious or cultural systems\n
+(6) Theories, Models, etc.\n
+Design thinking gives students a taste of the rich internal-remunerations associated with
+knowledge-creation and in curiosity and problem-driven contexts. Design need to satisfy
+technical functions, ergonomics functions, aesthetic functions, cost function and environment
+functions.\n\n
+<b>Essential features of Design : </b>\n
+Design solution of a problem starts with planned constructions for achieving goal/s. Designing
+means evolving goal oriented processes. At the beginning of the design process only goals are
+known while at the end, both the goals and plans are known and that to with more clarity. Goal
+and plans evolve together and they influencing each other. In designing process some goals are
+more important than others and similarly some plans are better than others. Designing does not
+guarantee that the design will work.\n
+Design thinking process:\n
+(1) Find goals or need\n
+(2) Evaluate goals or need\n
+(3) Generate proposals to satisfy goals\n
+(4) Evaluate proposals\n
+(5) Improve goals and proposals\n\n
+<b>Teaching methodology : </b>\n
+The design engineering should be with fun and should create excitement. It should be integrated
+theme across the various courses. It should promote the team work. Design is thinking and doing.
+The complete design process should be included in design engineering 1, 2 and 3. The prototype
+design must consider technical, aesthetic, ergonomics, cost and environmental requirements.\n\n
+
+<b>Modules on : </b>Task clarification and conceptualization: Problem-idea-solution-evaluation\n
+1 Problem identification\n
+2 Ideation\n
+3 Consolidation\n
+4 Evaluation\n\n
+<b>Project :</b> identifying need to developing proof of concept to demonstrate solution selected
+Students can tackle simple design problems with engineering content – posed by the teacher or
+based on a survey of real life concerns of the public. The second is more effective – the students
+“own the problem” - but has to be accepted by the teacher.\n\n
+ </string>
+
+
+
+    <string name="mooc_contact"> <b>Address : </b>Gujarat Technological University
+Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway
+Chandkheda, Ahmedabad – 382424 - Gujarat\n\n
+   <b>Tel :</b> 079-23267521/570\n\n
+   <b>Email :</b> info@gtu.ac.in , registrar@gtu.ac.in\n\n</string>
+
+
+    <string name="moocdetail">
+        <b>GTU students to leverage one of its kinds Start-up MOOC under 100 point activity
+system: Six ways to graduate: Introduction to Student Start-ups</b>\n\n
+        The free Massively Open Online Course (MOOC) <b>Six ways to graduate: introduction to Student
+Start-ups</b> is being introduced by GTU as part of the GTU Student Start-up Policy to give students
+an overview of the start-up ecosystem in India along with advantage of doing start-ups in college. \n\n
+The <b>Six ways to graduate</b> course is being offered to students of GTU for the first time in India.\n\n
+        <b>Key Course Highlights : </b>\n
+<b>1. </b> No prior start-up experience is required to take the course.\n
+<b>2. </b> Internet connection and computer is only required to learn this program.\n
+<b>3. </b> Students can study at their own speed of understanding.\n
+<b>4. </b> Students can finish the course in approximately 16 weeks. Average of 4 hours of study per
+week is suggested.\n
+<b>5. </b> Students have to take this program individually.\n
+<b>6. </b> There will be 10 chapters in this program.\n
+<b>7. </b> Course will explain how students can graduate using SIX WAYS if they create a start-up in
+college apart from only conventional way of getting a degree from university.\n
+<b>8. </b> At the end of each chapter, there will be a Multiple Choice Questionnaire for assessing
+the learning from each chapter.\n
+<b>9. </b> Students can take multiple choice questions any number of times till they understand it
+in detail and are able to successfully attempt the questions.\n
+<b>10. </b> The objective of test is not to score but to ensure students have understood the chapters
+well.\n
+<b>11. </b> All students will get digital completion certificates after successful completion of this
+program students can earn 9 points under MOOC program in 100 point activity system
+introduced by GTU.\n
+<b>12. </b> Students who are then interested in creating start-ups can join any of the GTU empanelled
+Incubators.    </string>
+
+    <string name="iprdetails">
+        <b>IPR Activities at GTU : </b>\n\n
+<b>1. </b>PSAR (Patent Search &amp; Analysis Report)\n
+<b>2. </b>PDE (Patent Drafting Exercise)\n
+<b>3. </b>Patent Clinic\n
+<b>4. </b>Post Graduate Diploma in IPR (PGDIPR)\n
+<b>5. </b>IP Valuation &amp; Management\n\n<b>For more details click the button</b>
+
+    </string>
+
+    <string name="introduction">
+        Innovation processes at GTU are primarily integrated at three layers:\n
+        A) At university level through GTU Innovation Council\n
+        B) At regional/cluster level through 25 GTU Innovation Sankuls\n
+        C) At college level through GTU Innovation Clubs.
+        \n\n
+        The university has developed various processes and pedagogies related to innovation which are being executed at all of the above three layers with GTU Innovation Club playing a crucial role in making this happen at grassroots level. GTU affiliated colleges are required to set up GTU Innovation Club involving students and faculty members to execute the innovation, start-up, IPR, research and allied efforts at college level.
+    </string>
+    <string name="process_details">• GTU has functional innovation clubs across most of these colleges since 2011. As there are many activities which are mainly focused in the area of IPR, Design, Innovation, Start-ups, Leadership etc, university has now started to streamline all these student lead efforts through GTU Innovation Clubs. This will help in optimizing the efforts and impact to achieve overall objectives of GTU.
+       \n \n
+        • Innovation clubs will play a role of key stakeholder in innovation ecosystem at GTU to conceive and deploy the innovation, entrepreneurship, research and other strategies centered on students across all branches of engineering and years.
+    </string>
+    <string name="process_details2">• GTU Innovation Council will coordinate the process of capacity building of these clubs and their members and provide necessary innovation and entrepreneurship related toolkits.
+  \n  \n•	The role of these clubs has been to conceive, test and design local as well as central action agendas and implement them in agile fashion. These Innovation Clubs will take care of all the efforts across the innovation, skill development, entrepreneurship value chain as defined by GTU Innovation Council.
+       \n \n•	To Nurture creativity GTU Innovation Council, GIC has been discussing with all colleges one-by-one to explain about the importance of establishing a GTU Innovation Club and keeping it very active throughout the year.
+        \n\n•	Every Club is managed by the students, with the guidance of the designated faculty members. It keeps the students more involved with having an environment of creativity at their College.
+        \n\n•	These clubs are also mandated to implement the agendas as described by National Innovation Clubs declared by Hon’ble President of India.
+        \n
+    </string>
+    <string name="marquetxt" >Browse and Register for any event. For registering your event contact us on officialgicapp@gmail.com</string>
+</resources>

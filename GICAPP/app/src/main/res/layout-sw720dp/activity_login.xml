@@ -1,0 +1,115 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main">
+
+            <ImageView android:src="@drawable/gtulogo"
+                android:id="@+id/image"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="ContentDescription"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView android:text="GTU Innovation Council"
+                android:textColor="@color/primary"
+                android:id="@+id/titleimage"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:paddingBottom="24dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="HardcodedText" />
+
+            <!-- Email Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:hint="Email"
+                    android:focusableInTouchMode="true"
+                    tools:ignore="HardcodedText"
+                    android:textSize="26sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etPasswordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleDrawable="@drawable/eye3"
+                app:passwordToggleTintMode="src_atop">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColor="#000"
+                    android:inputType="textPassword"
+                    tools:ignore="HardcodedText"
+                    android:textSize="26sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/simpleLogin"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Login"
+                tools:ignore="HardcodedText"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView android:id="@+id/link_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:textColor="@color/blue"
+                android:text="No account yet? Create one"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:textSize="26sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView android:id="@+id/link_forgotPass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:layout_marginBottom="9dp"
+                android:text="Forgot Password? Click here"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:textSize="26sp"
+                tools:ignore="HardcodedText" />
+
+    <TextView android:id="@+id/link_guest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:textColor="@color/blue"
+        android:layout_weight="0.82"
+        android:textSize="26sp"
+        android:text="Continue as a guest user"
+        android:gravity="center"
+        android:linksClickable="true" />
+
+  </LinearLayout>

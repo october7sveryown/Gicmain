@@ -1,0 +1,27 @@
+{
+  "status": true,
+  "data": {
+    "products": [
+      {
+        "id": "431",
+        "name": "Mickey Mouse",
+        "image_url": "C:/Users/KINJAL/Desktop/GIC/GIC/app/src/main/res/drawable/brainstorm.png"
+      },
+      {
+        "id": "424",
+        "name": "Pattern - Wallpaper",
+        "image_url": "C:\Users\KINJAL\Desktop\GIC\GIC\app\src\main\res\drawable\male.png"
+      },
+      {
+        "id": "426",
+        "name": "Batman",
+        "image_url": "C:\Users\KINJAL\Desktop\GIC\GIC\app\src\main\res\drawable\customer_reviews.png"
+      },
+      {
+        "id": "419",
+        "name": "Pattern - Music",
+        "image_url": "C:\Users\KINJAL\Desktop\GIC\GIC\app\src\main\res\drawable\online_course1.png"
+      }
+    ]
+  }
+}

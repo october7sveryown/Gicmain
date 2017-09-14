@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.october7sveryown.app.AboutDevelopersFragment"
+    android:background="#e8e8e8"
+   >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/border"
+        >
+
+        <ImageView
+            android:src="@drawable/divider1"
+            android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@color/white"
+            android:layout_marginTop="9dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/txtDeveloper"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Developers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDeveloper"
+            android:layout_below="@id/txtDetails"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_marginStart="15dp"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@id/divider"
+            android:id="@+id/krunal"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:text="Krunal Hingu"
+            android:textColorLink="@color/black"
+            android:padding="@dimen/activity_horizontal_margin"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@id/krunal"
+            android:id="@+id/yash"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:textColorLink="@color/black"
+            android:text="Yash Thaker"
+            android:padding="@dimen/activity_horizontal_margin"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@id/yash"
+            android:id="@+id/abhi"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:textColorLink="@color/black"
+            android:text="Abhijit Raval"
+            android:padding="@dimen/activity_horizontal_margin"
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

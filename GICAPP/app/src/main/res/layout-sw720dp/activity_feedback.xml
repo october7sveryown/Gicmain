@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_feedback"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="8dp"
+    android:background="@drawable/xmlbackground"
+    tools:context="com.example.october7sveryown.app.FeedbackActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:text="GTU Innovation Council"
+
+        android:textColor="@color/primary"
+              android:textStyle="bold"
+              android:id="@+id/title_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="5dp"
+              android:layout_marginTop="20dp"
+            android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Name"
+        android:padding="10dp"
+        android:layout_below="@+id/title_text"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="24sp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtName"
+        android:hint="Email"
+        android:padding="10dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/txtEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enrollment No"
+        android:layout_below="@id/txtEmail"
+        android:padding="10dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border"
+        android:inputType="number"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:textSize="24sp"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/txtEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:hint="Event Name"
+        android:layout_below="@id/txtEnroll"
+        android:padding="10dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border"
+        android:inputType="text"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/txtComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+        android:layout_below="@id/txtEvent"
+        android:hint="Write your Comment here"
+        android:padding="10dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/border"
+        android:inputType="textMultiLine"
+        android:maxWidth="50dp"
+        android:lines="4"
+        android:textColorHighlight="@color/blue"
+        android:gravity="top"
+        android:textSize="24sp"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:text="Send Feedback"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btFeedback"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textSize="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtComment"
+        android:layout_alignLeft="@+id/txtComment"
+        android:layout_alignStart="@+id/txtComment"/>
+
+</RelativeLayout>

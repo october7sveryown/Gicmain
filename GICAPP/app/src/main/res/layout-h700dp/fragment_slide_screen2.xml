@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA68C8"
+    android:clipToPadding="false"
+    android:padding="20dp">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/frames"
+        android:padding="16dp"
+        android:background="#CE93D8"
+        android:elevation="18dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/videolecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginTop="24dp"
+            android:padding="8dp"
+            android:text="Enroll For Online Courses"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/online_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            android:visibility="visible"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="8dp"
+            android:id="@+id/videolecturedetails"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Register for various online courses like MOOC and MSTE run by GIC.You're never old to learn something new."/>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

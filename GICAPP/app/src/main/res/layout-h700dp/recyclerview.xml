@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+    android:layout_below="@+id/categories"
+        android:elevation="6dp"
+    app:cardMaxElevation="7dp"
+    app:cardElevation="6dp"
+        app:cardCornerRadius="1dp"
+        card_view:cardPreventCornerOverlap="false"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+    card_view:cardElevation="4dp"
+        android:layout_marginBottom="9dp"
+        card_view:cardUseCompatPadding="true"
+    android:layout_height="250dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        >
+        <ImageButton
+            android:id="@+id/sharebutton"
+            android:gravity="right"
+            android:background="@drawable/sharepink"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:layout_width="82px"
+            android:layout_height="82px" />
+
+        <TextView
+            android:id="@+id/event_name"
+            android:text="Lakshya Festival"
+            android:textSize="24sp"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/card_separator"
+            android:layout_below="@+id/event_name"
+            android:background="#E0E0E0" />
+
+        <ImageView
+            android:layout_below="@+id/card_separator"
+            android:background="@drawable/placeholderblue"
+            android:layout_margin="10dp"
+            android:id="@+id/placeimage"
+            android:layout_width="120px"
+            android:layout_height="120px" />
+
+
+        <Button
+            android:id="@+id/reg_link"
+            android:text="Register"
+            android:background="@drawable/roundedbtn"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:padding="8dp"
+            android:layout_marginBottom="3dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="130dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L.D. College of Engineering"
+            android:id="@+id/event_place"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/placeimage"
+            android:layout_toRightOf="@+id/placeimage"
+            android:layout_toEndOf="@+id/placeimage" />
+
+        <ImageView
+            android:background="@drawable/calendarblue"
+            android:id="@+id/dateimage"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/placeimage"
+            android:layout_alignRight="@+id/placeimage"
+            android:layout_alignEnd="@+id/placeimage"
+            android:layout_width="120px"
+            android:layout_height="120px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17th Feb to 19th Feb"
+            android:id="@+id/event_date"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_alignTop="@+id/dateimage"
+            android:layout_toRightOf="@+id/dateimage"
+            android:layout_toEndOf="@+id/dateimage"
+            android:layout_marginLeft="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/cbFav"
+            android:checked="false"
+            android:background="@android:color/transparent"
+            android:button="@drawable/favourite"
+            android:layout_height="wrap_content"
+            android:buttonTint="#F06292"
+            android:layout_alignBottom="@+id/reg_link"
+            android:layout_alignLeft="@+id/card_separator"
+            android:layout_alignStart="@+id/card_separator" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
